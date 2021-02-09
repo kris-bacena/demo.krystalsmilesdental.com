@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "Archivo Narrow";
+    font-weight: 400;
+    font-style: normal;
+    src: url("../fonts/ArchivoNarrow-400.woff2") format("woff")
+}
+
+@font-face {
+    font-family: "IBM Plex Sans";
+    font-weight: 400;
+    font-style: normal;
+    src: url("../fonts/IBMPlexSans-normal-400.woff2") format("woff")
+}
+@font-face {
+    font-family: "IBM Plex Sans";
+    font-weight: 700;
+    font-style: normal;
+    src: url("../fonts/IBMPlexSans-normal-700.woff2") format("woff")
+}
+
+@font-face {
+    font-family: "Shopify Sans";
+    font-weight: bold;
+    font-style: normal;
+    src: url("../fonts/ShopifySans-bold.woff2") format("woff")
+}
+@font-face {
+    font-family: "Shopify Sans";
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/ShopifySans-regular.woff2") format("woff")
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/Roboto/Roboto-Regular-webfont.woff") format("woff")
+}
+@font-face {
+    font-family: "Roboto";
+    font-weight: normal;
+    font-style: italic;
+    src: url("../fonts/Roboto/Roboto-Italic-webfont.woff") format("woff")
+}
+@font-face {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-style: normal;
+    src: url("../fonts/Roboto/RobotoCondensed-Bold-webfont.woff") format("woff")
+}
+@font-face {
+    font-family: "Roboto";
+    font-weight: lighter;
+    font-style: normal;
+    src: url("../fonts/Roboto/Roboto-Light-webfont.woff") format("woff")
+}
+
+@font-face {
+    font-family: "Sarabun";
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/Sarabun/Sarabun-Regular.woff") format("woff")
+}
+@font-face {
+    font-family: "Sarabun";
+    font-weight: normal;
+    font-style: italic;
+    src: url("../fonts/Sarabun/Sarabun-Italic.woff") format("woff")
+}
+@font-face {
+    font-family: "Sarabun";
+    font-weight: bold;
+    font-style: normal;
+    src: url("../fonts/Sarabun/Sarabun-Bold.woff") format("woff")
+}
+@font-face {
+    font-family: "Sarabun";
+    font-weight: 500;
+    font-style: normal;
+    src: url("../fonts/Sarabun/Sarabun-SemiBold.woff") format("woff")
+}

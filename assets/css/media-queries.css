@@ -1,0 +1,317 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 29, 2020, 10:24:30 PM
+    Author     : Kris Bacena
+*/
+
+/*** Desktop/Laptop ***/
+@media screen and (min-width: 1025px) {
+    body {
+        background: #EAEBEB;
+    }
+    
+    .desktop {
+        display: block;
+    }
+    
+    .tablet {
+        display: none;
+    }
+    
+    #btnScrollToTop {
+        display: none !important;
+    }
+    
+    .content-wrapper {
+        width: 1024px;
+        margin: 0 auto;
+    }
+    
+    .overlap-wrapper {
+        position: relative;
+    }
+    .overlap-wrapper .overlap {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 100;
+    }
+    #contactUs .overlap-wrapper .overlap {
+        top: -150px;
+    }
+    
+    .section-container {
+        padding: 65px 50px;
+    }
+    .section-container:nth-child(odd) {
+        min-height: 450px !important;   
+    }
+    .section-container.overlapped {
+        padding-bottom: 0;
+    }
+    
+    header {
+        display: flex;
+        align-items: baseline;
+    }
+    header .site-brand {
+        margin: 0;
+    }
+    header .site-brand.call-us {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    header .site-logo img {
+        width: 380px;
+    }
+    header .call-us {
+        display: flex;
+        align-items: baseline;
+        text-align: right;
+        flex-direction: row-reverse;
+    }
+    header .call-us ul li {
+        margin: 5px 0;
+        text-align: center;
+    }
+    header .call-us .btn-call-us {
+        width: 155px;
+    }
+    header .call-us .phone-num {
+        display: inline;
+    }
+    
+    .banner {
+        padding: 30px 50px;
+        height: 315px;
+    }
+    
+    .testimonials {
+        margin: 80px 0 0;
+    }
+    
+    .about-us,
+    .our-expertise {
+        padding-left: 0;
+        padding-right: 0;
+    }    
+    .about-us {
+        margin-top: 0;
+        margin-bottom: 65px;        
+    }
+    
+    #aboutUs,
+    #ourExpertise {
+        min-height: 500px !important;
+    }
+    
+    .our-expertise .gallery-action {
+        margin-top: 70px;
+    }
+    
+    .contact-us {
+        margin-top: 193px;
+        margin-bottom: 0;
+    }
+    .contact-us .location .location-map iframe {
+        height: 124px;
+        width: 283px;
+    }
+    
+    .footer {
+        padding: 40px;
+        color: #0E79B5;
+    }
+    
+    #modalGalleryGrid .thumb-box:nth-child(4n) {
+        padding-right: 0;
+        border-right: none;
+    }
+    /*** select last 4 .thumb-box elements ***/
+    #modalGalleryGrid .thumb-box:nth-last-child(-n+4) {
+        border-bottom: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    header .site-brand .btn-call-us {
+        width: 100%;
+        font-size: 30px;
+    }
+}
+
+/*** Tablet ***/
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .tablet {
+        display: block;
+    }
+    
+    .banner {
+        padding: 30px 50px;
+        min-height: 350px;
+        height: auto;
+    }
+    
+    .testimonials {        
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    
+    .about-us {
+        margin-top: 65px;
+        margin-bottom: 65px;
+    }
+    #aboutUs {
+        margin-bottom: 0;
+    } 
+    
+    .our-expertise .gallery-action {
+        margin-top: 50px;
+    }
+    
+    .contact-us {
+        margin-top: 0;
+    }
+    
+    #modalGalleryGrid .thumb-box:nth-child(even) {
+        padding-right: 0;
+        border-right: none;
+    }
+    /*** select last 2 .thumb-box elements ***/
+    #modalGalleryGrid .thumb-box:nth-last-child(-n+2) {
+        border-bottom: none;
+    }
+}
+
+/*** Desktop/Laptop/Tablet ***/
+@media screen and (min-width: 768px) {
+    .mobile {
+        display: none;
+    }
+    
+    .banner {
+        background-position: center;
+    }
+    
+    .page-nav > .page-nav-wrapper > ul {
+        text-align: center;
+    }
+    .page-nav > .page-nav-wrapper > ul > li {
+        padding: 5px 60px;
+    }
+    .page-nav > .page-nav-wrapper > ul > li > a {
+        font-size: inherit;
+    }
+    
+    .testimonials .featured .verbiage {
+        font-size: 24px;
+    }
+    .testimonials .testee-list .testee:first-of-type {
+        padding-top: 10px
+    }
+    
+    
+    .about-us .verbiage,
+    .our-expertise .verbiage {
+        margin: 0;
+    }
+    #aboutUs .banner { 
+        height: 315px;
+    }
+    
+    .our-expertise {
+        padding-top: 65px;
+        padding-bottom: 65px;
+    }
+    .our-expertise .gallery-action {
+        text-align: left;
+    }    
+    
+    .contact-us {
+        padding-top: 65px;
+        padding-bottom: 65px;
+    }
+    .contact-us .heading {
+        margin-bottom: 65px;
+    }    
+    .contact-us .feedback .feedback-form,
+    .contact-us .location .logo {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .contact-us .feedback .feedback-form form {
+        margin-top: 35px;
+    }
+    .contact-us .feedback .feedback-form .form-action {
+        text-align: left;
+    }
+    .contact-us .location {
+        margin-top: 0;
+    }
+    .contact-us .location .location-map {
+        margin-top: 30px;
+    }
+    
+    #modalGalleryGrid .thumb-box {
+        border: 1px solid #fff;
+        border-top: none;
+        border-left: none;
+    }
+}
+
+@media screen and (max-width: 882px) and (min-width: 768px) {
+    .page-nav > .page-nav-wrapper > ul > li {
+        padding: 5px 40px !important;
+    }
+}
+
+/*** Mobile Phones (Landscape) ***/
+@media screen and (min-width: 568px) {
+    .banner {
+        margin: 0;
+        background-size: cover;
+        color: #fff;
+    }
+    .banner .banner-text {
+        width: 50%;
+    }
+    .banner .banner-text .main-text {
+        margin: 0 0 30px;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .banner .banner-text .subtext {
+        margin: 30px 0 0;
+    }
+    
+    #aboutUs .banner {
+        margin-bottom: 0;
+        background-size: cover;
+    }
+}
+@media screen and (max-width: 812px) and (min-width: 568px) {
+    .page-nav > .page-nav-wrapper > ul > li {
+        padding: 5px 50px;
+    }
+}
+
+/*** Mobile Phones ***/
+@media screen and (max-width: 414px) and (min-width: 376px) {    
+    #aboutUs .banner {
+        height: 155px;
+    }
+}
+
+@media screen and (max-width: 375px) {    
+    
+}
+
+@media screen and (max-width: 320px) {
+    .page-nav > .page-nav-wrapper > ul > li {
+        padding: 5px;
+    }
+}
