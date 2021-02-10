@@ -9,6 +9,12 @@ and open the template in the editor.
 */
 
 /*** Desktop/Laptop ***/
+@media screen and (max-width: 1199px) and (min-width: 1025px) {
+    .mobile-footer {
+        display: none;;
+    }
+}
+
 @media screen and (min-width: 1025px) {
     body {
         background: #EAEBEB;
@@ -107,6 +113,13 @@ and open the template in the editor.
     #aboutUs,
     #ourExpertise {
         min-height: 500px !important;
+    }
+
+    #aboutUs {
+        min-height: 905px !important;
+    }
+    #aboutUs .banner.overlap {
+        top: 400px;
     }
     
     .our-expertise .gallery-action {
