@@ -1,0 +1,3 @@
+$(function() {
+    $(".lazy-load").lazyload();
+});

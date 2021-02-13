@@ -119,6 +119,11 @@ and open the template in the editor.
         min-height: 905px !important;
         position: relative;
     }
+    #aboutUs .banner,
+    #ourExpertise .banner {
+        background-image: none;
+        background-color: #A7A7A7;
+    }
     #aboutUs .banner.overlap,
     #ourExpertise .banner.overlap {
         width: calc(100% - 100px);
